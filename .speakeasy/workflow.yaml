@@ -10,6 +10,9 @@ targets:
     testdk:
         target: python
         source: BFL API
+        publish:
+            pypi:
+                token: $pypi_token
         codeSamples:
             registry:
                 location: registry.speakeasyapi.dev/test-ttu/test/bfl-api-python-code-samples
