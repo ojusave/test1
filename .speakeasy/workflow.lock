@@ -1,0 +1,36 @@
+speakeasyVersion: 1.543.1
+sources:
+    BFL API:
+        sourceNamespace: bfl-api
+        sourceRevisionDigest: sha256:2ff9294151fde79d21672422b192c1667a0602625a79092f1e4bba21004d3f64
+        sourceBlobDigest: sha256:7a91809e9ff97b0c17d1024bef520c41470590b53292d7f6b7ba697013df9f69
+        tags:
+            - latest
+            - 0.0.1
+targets:
+    testdk:
+        source: BFL API
+        sourceNamespace: bfl-api
+        sourceRevisionDigest: sha256:2ff9294151fde79d21672422b192c1667a0602625a79092f1e4bba21004d3f64
+        sourceBlobDigest: sha256:7a91809e9ff97b0c17d1024bef520c41470590b53292d7f6b7ba697013df9f69
+        codeSamplesNamespace: bfl-api-python-code-samples
+        codeSamplesRevisionDigest: sha256:30e00a9ec507c7453d0457428f02305bcdf064151d4487b5bd28d74ee6cd59fd
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        BFL API:
+            inputs:
+                - location: /Users/ojusave/Downloads/openapi.json
+            registry:
+                location: registry.speakeasyapi.dev/test-ttu/test/bfl-api
+    targets:
+        testdk:
+            target: python
+            source: BFL API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/test-ttu/test/bfl-api-python-code-samples
+                labelOverride:
+                    fixedValue: Python (SDK)
+                blocking: false

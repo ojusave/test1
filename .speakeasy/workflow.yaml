@@ -1,0 +1,18 @@
+workflowVersion: 1.0.0
+speakeasyVersion: latest
+sources:
+    BFL API:
+        inputs:
+            - location: /Users/ojusave/Downloads/openapi.json
+        registry:
+            location: registry.speakeasyapi.dev/test-ttu/test/bfl-api
+targets:
+    testdk:
+        target: python
+        source: BFL API
+        codeSamples:
+            registry:
+                location: registry.speakeasyapi.dev/test-ttu/test/bfl-api-python-code-samples
+            labelOverride:
+                fixedValue: Python (SDK)
+            blocking: false

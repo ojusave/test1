@@ -1,0 +1,320 @@
+lockVersion: 2.0.0
+id: 41b5442c-640a-4ab4-93f8-b4e2ef4e1416
+management:
+  docChecksum: 85a7dd2402e0329834cdfb27d0a7c16e
+  docVersion: 0.0.1
+  speakeasyVersion: 1.543.1
+  generationVersion: 2.598.21
+  releaseVersion: 0.0.1
+  configChecksum: 53f472a1da6e324a1aa667860683a4ba
+features:
+  python:
+    additionalDependencies: 1.0.0
+    constsAndDefaults: 1.0.5
+    core: 5.17.1
+    defaultEnabledRetries: 0.2.0
+    devContainers: 3.0.0
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.3.2
+    flatRequests: 1.0.1
+    flattening: 3.1.1
+    globalSecurity: 3.0.3
+    globalSecurityCallbacks: 1.0.0
+    globalSecurityFlattening: 1.0.0
+    globalServerURLs: 3.1.0
+    methodArguments: 1.0.2
+    nullables: 1.0.1
+    responseFormat: 1.0.1
+    retries: 3.0.2
+    sdkHooks: 1.0.1
+    unions: 3.0.4
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .python-version
+  - .vscode/settings.json
+  - USAGE.md
+  - docs/errors/httpvalidationerror.md
+  - docs/models/asyncresponse.md
+  - docs/models/asyncwebhookresponse.md
+  - docs/models/cannyinputs.md
+  - docs/models/deletefinetuneinputs.md
+  - docs/models/deletefinetuneresponse.md
+  - docs/models/depthinputs.md
+  - docs/models/details.md
+  - docs/models/finetunecannyinputs.md
+  - docs/models/finetunedepthinputs.md
+  - docs/models/finetunedetailresponse.md
+  - docs/models/finetunedetails.md
+  - docs/models/finetunedetailsv1finetunedetailsgetrequest.md
+  - docs/models/finetunefluxprofillinputs.md
+  - docs/models/finetunefluxultrainput.md
+  - docs/models/finetuneinputs.md
+  - docs/models/finetunetype.md
+  - docs/models/fluxdevinputs.md
+  - docs/models/fluxpro11inputs.md
+  - docs/models/fluxprofillinputs.md
+  - docs/models/fluxprofinetuneinputs.md
+  - docs/models/fluxproinputs.md
+  - docs/models/fluxultrainput.md
+  - docs/models/getresultv1getresultgetrequest.md
+  - docs/models/loc.md
+  - docs/models/lorarank.md
+  - docs/models/mode.md
+  - docs/models/myfinetunesresponse.md
+  - docs/models/outputformat.md
+  - docs/models/priority.md
+  - docs/models/responsefillv1fluxpro10fillpost.md
+  - docs/models/responsefluxdevv1fluxdevpost.md
+  - docs/models/responsefluxpro10cannyfinetunedv1fluxpro10cannyfinetunedpost.md
+  - docs/models/responsefluxpro10depthfinetunedv1fluxpro10depthfinetunedpost.md
+  - docs/models/responsefluxpro10fillfinetunedv1fluxpro10fillfinetunedpost.md
+  - docs/models/responsefluxpro11v1fluxpro11post.md
+  - docs/models/responsefluxprofinetunedv1fluxprofinetunedpost.md
+  - docs/models/responsefluxprov1fluxpropost.md
+  - docs/models/responsegeneratebigbluefinetunedv1fluxpro11ultrafinetunedpost.md
+  - docs/models/responsegeneratebigbluev1fluxpro11ultrapost.md
+  - docs/models/responseprocannyv1fluxpro10cannypost.md
+  - docs/models/responseprodepthv1fluxpro10depthpost.md
+  - docs/models/resultresponse.md
+  - docs/models/security.md
+  - docs/models/statusresponse.md
+  - docs/models/utils/retryconfig.md
+  - docs/models/validationerror.md
+  - docs/sdks/tasks/README.md
+  - docs/sdks/testdk/README.md
+  - docs/sdks/utility/README.md
+  - poetry.toml
+  - py.typed
+  - pylintrc
+  - pyproject.toml
+  - scripts/prepare_readme.py
+  - scripts/publish.sh
+  - src/testdk/__init__.py
+  - src/testdk/_hooks/__init__.py
+  - src/testdk/_hooks/sdkhooks.py
+  - src/testdk/_hooks/types.py
+  - src/testdk/_version.py
+  - src/testdk/basesdk.py
+  - src/testdk/errors/__init__.py
+  - src/testdk/errors/apierror.py
+  - src/testdk/errors/httpvalidationerror.py
+  - src/testdk/httpclient.py
+  - src/testdk/models/__init__.py
+  - src/testdk/models/asyncresponse.py
+  - src/testdk/models/asyncwebhookresponse.py
+  - src/testdk/models/cannyinputs.py
+  - src/testdk/models/deletefinetuneinputs.py
+  - src/testdk/models/deletefinetuneresponse.py
+  - src/testdk/models/depthinputs.py
+  - src/testdk/models/fill_v1_flux_pro_1_0_fill_postop.py
+  - src/testdk/models/finetune_details_v1_finetune_details_getop.py
+  - src/testdk/models/finetunecannyinputs.py
+  - src/testdk/models/finetunedepthinputs.py
+  - src/testdk/models/finetunedetailresponse.py
+  - src/testdk/models/finetunefluxprofillinputs.py
+  - src/testdk/models/finetunefluxultrainput.py
+  - src/testdk/models/finetuneinputs.py
+  - src/testdk/models/flux_dev_v1_flux_dev_postop.py
+  - src/testdk/models/flux_pro_1_0_canny_finetuned_v1_flux_pro_1_0_canny_finetuned_postop.py
+  - src/testdk/models/flux_pro_1_0_depth_finetuned_v1_flux_pro_1_0_depth_finetuned_postop.py
+  - src/testdk/models/flux_pro_1_0_fill_finetuned_v1_flux_pro_1_0_fill_finetuned_postop.py
+  - src/testdk/models/flux_pro_1_1_v1_flux_pro_1_1_postop.py
+  - src/testdk/models/flux_pro_finetuned_v1_flux_pro_finetuned_postop.py
+  - src/testdk/models/flux_pro_v1_flux_pro_postop.py
+  - src/testdk/models/fluxdevinputs.py
+  - src/testdk/models/fluxpro11inputs.py
+  - src/testdk/models/fluxprofillinputs.py
+  - src/testdk/models/fluxprofinetuneinputs.py
+  - src/testdk/models/fluxproinputs.py
+  - src/testdk/models/fluxultrainput.py
+  - src/testdk/models/generate_bigblue_finetuned_v1_flux_pro_1_1_ultra_finetuned_postop.py
+  - src/testdk/models/generate_bigblue_v1_flux_pro_1_1_ultra_postop.py
+  - src/testdk/models/get_result_v1_get_result_getop.py
+  - src/testdk/models/myfinetunesresponse.py
+  - src/testdk/models/outputformat.py
+  - src/testdk/models/pro_canny_v1_flux_pro_1_0_canny_postop.py
+  - src/testdk/models/pro_depth_v1_flux_pro_1_0_depth_postop.py
+  - src/testdk/models/resultresponse.py
+  - src/testdk/models/security.py
+  - src/testdk/models/statusresponse.py
+  - src/testdk/models/validationerror.py
+  - src/testdk/py.typed
+  - src/testdk/sdk.py
+  - src/testdk/sdkconfiguration.py
+  - src/testdk/tasks.py
+  - src/testdk/types/__init__.py
+  - src/testdk/types/basemodel.py
+  - src/testdk/utility.py
+  - src/testdk/utils/__init__.py
+  - src/testdk/utils/annotations.py
+  - src/testdk/utils/datetimes.py
+  - src/testdk/utils/enums.py
+  - src/testdk/utils/eventstreaming.py
+  - src/testdk/utils/forms.py
+  - src/testdk/utils/headers.py
+  - src/testdk/utils/logger.py
+  - src/testdk/utils/metadata.py
+  - src/testdk/utils/queryparams.py
+  - src/testdk/utils/requestbodies.py
+  - src/testdk/utils/retries.py
+  - src/testdk/utils/security.py
+  - src/testdk/utils/serializers.py
+  - src/testdk/utils/url.py
+  - src/testdk/utils/values.py
+examples:
+  get_result_v1_get_result_get:
+    speakeasy-default-get-result-v1-get-result-get:
+      parameters:
+        query:
+          id: "<id>"
+      responses:
+        "200":
+          application/json: {"id": "<id>", "status": "Content Moderated"}
+        "422":
+          application/json: {}
+  finetune_details_v1_finetune_details_get:
+    speakeasy-default-finetune-details-v1-finetune-details-get:
+      parameters:
+        query:
+          finetune_id: "<id>"
+      responses:
+        "200":
+          application/json: {"finetune_details": {}}
+        "422":
+          application/json: {}
+  my_finetunes_v1_my_finetunes_get:
+    speakeasy-default-my-finetunes-v1-my-finetunes-get:
+      responses:
+        "200":
+          application/json: {"finetunes": ["<value>"]}
+  delete_finetune_v1_delete_finetune_post:
+    speakeasy-default-delete-finetune-v1-delete-finetune-post:
+      requestBody:
+        application/json: {"finetune_id": "my-finetune"}
+      responses:
+        "200":
+          application/json: {"status": "<value>", "message": "<value>", "deleted_finetune_id": "<id>", "timestamp": "<value>"}
+        "422":
+          application/json: {}
+  flux_pro_1_1_v1_flux_pro_1_1_post:
+    speakeasy-default-flux-pro-1-1-v1-flux-pro-1-1-post:
+      requestBody:
+        application/json: {"prompt": "ein fantastisches bild", "width": 1024, "height": 768, "prompt_upsampling": false, "seed": 42, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://reflecting-heartache.com/"}
+        "422":
+          application/json: {}
+  flux_pro_v1_flux_pro_post:
+    speakeasy-default-flux-pro-v1-flux-pro-post:
+      requestBody:
+        application/json: {"prompt": "ein fantastisches bild", "width": 1024, "height": 768, "steps": 40, "prompt_upsampling": false, "seed": 42, "guidance": 2.5, "safety_tolerance": 2, "interval": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "status": "<value>", "webhook_url": "https://valuable-tuber.com/"}
+        "422":
+          application/json: {}
+  flux_dev_v1_flux_dev_post:
+    speakeasy-default-flux-dev-v1-flux-dev-post:
+      requestBody:
+        application/json: {"prompt": "ein fantastisches bild", "width": 1024, "height": 768, "steps": 28, "prompt_upsampling": false, "seed": 42, "guidance": 3, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://impressive-nerve.net"}
+        "422":
+          application/json: {}
+  generate_bigblue_v1_flux_pro_1_1_ultra_post:
+    speakeasy-default-generate-bigblue-v1-flux-pro-1-1-ultra-post:
+      requestBody:
+        application/json: {"prompt": "A beautiful landscape with mountains and a lake", "prompt_upsampling": false, "seed": 42, "aspect_ratio": "16:9", "safety_tolerance": 2, "raw": false, "image_prompt_strength": 0.1}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "status": "<value>", "webhook_url": "https://second-hand-sanity.com/"}
+        "422":
+          application/json: {}
+  fill_v1_flux_pro_1_0_fill_post:
+    speakeasy-default-fill-v1-flux-pro-1-0-fill-post:
+      requestBody:
+        application/json: {"image": "https://picsum.photos/seed/v9Wlf1TesL/2086/3839", "prompt": "ein fantastisches bild", "steps": 50, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://shoddy-haversack.name"}
+        "422":
+          application/json: {}
+  pro_canny_v1_flux_pro_1_0_canny_post:
+    speakeasy-default-pro-canny-v1-flux-pro-1-0-canny-post:
+      requestBody:
+        application/json: {"prompt": "ein fantastisches bild", "seed": 42, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://nautical-coliseum.biz/"}
+        "422":
+          application/json: {}
+  pro_depth_v1_flux_pro_1_0_depth_post:
+    speakeasy-default-pro-depth-v1-flux-pro-1-0-depth-post:
+      requestBody:
+        application/json: {"prompt": "ein fantastisches bild", "seed": 42, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "status": "<value>", "webhook_url": "https://winged-stir-fry.com"}
+        "422":
+          application/json: {}
+  finetune_v1_finetune_post:
+    speakeasy-default-finetune-v1-finetune-post:
+      requestBody:
+        application/json: {"file_data": "<value>", "finetune_comment": "my-first-finetune", "trigger_word": "TOK", "mode": "product", "iterations": 300, "captioning": true, "priority": "quality", "finetune_type": "full", "lora_rank": 32}
+      responses:
+        "200":
+          application/json: "<value>"
+        "422":
+          application/json: {}
+  flux_pro_finetuned_v1_flux_pro_finetuned_post:
+    speakeasy-default-flux-pro-finetuned-v1-flux-pro-finetuned-post:
+      requestBody:
+        application/json: {"finetune_id": "my-finetune", "finetune_strength": 1.1, "steps": 40, "guidance": 2.5, "prompt": "ein fantastisches bild", "width": 1024, "height": 768, "prompt_upsampling": false, "seed": 42, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "status": "<value>", "webhook_url": "https://small-electronics.biz/"}
+        "422":
+          application/json: {}
+  flux_pro_1_0_depth_finetuned_v1_flux_pro_1_0_depth_finetuned_post:
+    speakeasy-default-flux-pro-1-0-depth-finetuned-v1-flux-pro-1-0-depth-finetuned-post:
+      requestBody:
+        application/json: {"finetune_id": "my-finetune", "finetune_strength": 1.1, "prompt": "ein fantastisches bild", "control_image": "<value>", "prompt_upsampling": false, "seed": 42, "steps": 50, "guidance": 15, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "status": "<value>", "webhook_url": "https://necessary-sweatshop.org"}
+        "422":
+          application/json: {}
+  flux_pro_1_0_canny_finetuned_v1_flux_pro_1_0_canny_finetuned_post:
+    speakeasy-default-flux-pro-1-0-canny-finetuned-v1-flux-pro-1-0-canny-finetuned-post:
+      requestBody:
+        application/json: {"finetune_id": "my-finetune", "finetune_strength": 1.1, "prompt": "ein fantastisches bild", "control_image": "<value>", "prompt_upsampling": false, "seed": 42, "steps": 50, "guidance": 30, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://entire-shipper.biz"}
+        "422":
+          application/json: {}
+  flux_pro_1_0_fill_finetuned_v1_flux_pro_1_0_fill_finetuned_post:
+    speakeasy-default-flux-pro-1-0-fill-finetuned-v1-flux-pro-1-0-fill-finetuned-post:
+      requestBody:
+        application/json: {"finetune_id": "my-finetune", "finetune_strength": 1.1, "image": "https://loremflickr.com/3046/1312?lock=6858578172486432", "prompt": "ein fantastisches bild", "steps": 50, "prompt_upsampling": false, "guidance": 60, "safety_tolerance": 2}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://awful-sandbar.name/"}
+        "422":
+          application/json: {}
+  generate_bigblue_finetuned_v1_flux_pro_1_1_ultra_finetuned_post:
+    speakeasy-default-generate-bigblue-finetuned-v1-flux-pro-1-1-ultra-finetuned-post:
+      requestBody:
+        application/json: {"finetune_id": "my-finetune", "finetune_strength": 1.2, "prompt": "A beautiful landscape with mountains and a lake", "seed": 42, "aspect_ratio": "16:9", "safety_tolerance": 2, "image_prompt_strength": 0.1, "prompt_upsampling": false}
+      responses:
+        "200":
+          application/json: {"id": "<id>", "polling_url": "https://stupendous-premise.biz/"}
+        "422":
+          application/json: {}
+examplesVersion: 1.0.1
+generatedTests: {}
