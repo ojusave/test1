@@ -29,10 +29,4 @@ jobs:
       pypi_token: ${{ secrets.PYPI_TOKEN }}
       speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }}
 
-sources:
-  BFL API:
-    input: .speakeasy/openapi.json
-targets:
-  testdk:
-    target: python
 
