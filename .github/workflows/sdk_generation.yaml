@@ -5,7 +5,11 @@ permissions:
   pull-requests: write
   statuses: write
   id-token: write
-"on":
+
+on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       force:
@@ -17,6 +21,7 @@ permissions:
         type: string
   schedule:
     - cron: 0 0 * * *
+
 jobs:
   generate:
     uses: speakeasy-api/sdk-generation-action/.github/workflows/workflow-executor.yaml@v15
