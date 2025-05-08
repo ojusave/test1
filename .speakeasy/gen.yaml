@@ -19,7 +19,7 @@ generation:
     oAuth2ClientCredentialsEnabled: true
     oAuth2PasswordEnabled: true
 python:
-  version: 0.0.3
+  version: 0.0.4
   additionalDependencies:
     dev: {}
     main: {}
@@ -52,3 +52,10 @@ python:
   pytestTimeout: 0
   responseFormat: flat
   templateVersion: v2
+
+sources:
+  BFL API:
+    input: .speakeasy/openapi.json
+targets:
+  testdk:
+    target: python

@@ -2,7 +2,7 @@ speakeasyVersion: 1.543.1
 sources:
     BFL API:
         sourceNamespace: bfl-api
-        sourceRevisionDigest: sha256:4037cc674dd2d279eeed5435a786b2fe14217807513e91098fecaf4a7c0f0503
+        sourceRevisionDigest: sha256:1bab5c4150945d3163cc4ebb917eafa23d2ca4e0537d68bd9cb33723c959a5b7
         sourceBlobDigest: sha256:7a91809e9ff97b0c17d1024bef520c41470590b53292d7f6b7ba697013df9f69
         tags:
             - latest
@@ -11,10 +11,10 @@ targets:
     testdk:
         source: BFL API
         sourceNamespace: bfl-api
-        sourceRevisionDigest: sha256:4037cc674dd2d279eeed5435a786b2fe14217807513e91098fecaf4a7c0f0503
+        sourceRevisionDigest: sha256:1bab5c4150945d3163cc4ebb917eafa23d2ca4e0537d68bd9cb33723c959a5b7
         sourceBlobDigest: sha256:7a91809e9ff97b0c17d1024bef520c41470590b53292d7f6b7ba697013df9f69
         codeSamplesNamespace: bfl-api-python-code-samples
-        codeSamplesRevisionDigest: sha256:b9b982cc996918f25ab2eadbf8ef44ee75d97aa2449f3730f61eb95981be3a40
+        codeSamplesRevisionDigest: sha256:dc2a7223fa28304c3154133a395d49f4c80a18e32a60515bde18b7c8d408893a
 workflow:
     workflowVersion: 1.0.0
     speakeasyVersion: latest
