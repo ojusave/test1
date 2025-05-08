@@ -2,7 +2,7 @@ configVersion: 2.0.0
 generation:
   devContainers:
     enabled: true
-    schemaPath: /Users/ojusave/Downloads/openapi.json
+    schemaPath: .speakeasy/openapi.json
   sdkClassName: testdk
   maintainOpenAPIOrder: true
   usageSnippets:
